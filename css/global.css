@@ -1,0 +1,21 @@
+/* font */
+header,main,footer{font-family: 'Noto Sans KR';}
+header div nav ul li a {font-family: 'Roboto'}
+h2 {font-family: 'Montserrat', sans-serif;}
+
+.hidden {display: none;}
+
+@media screen and (max-width:767px){}
+@media screen and (min-width: 768px) and (max-width: 1279px){}
+@media screen and (min-width: 1280px){
+    header {position: fixed; width: 100%; background-color: #fff; top: 0; z-index: 10;}
+    header div {max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding-block: 24px;}
+    /* header div h1 a {color: #3355BB; font-size: 40px; font-weight: 500; letter-spacing: -2px; text-decoration: none;} */
+    header div h1 a {font-size: 16px; font-weight: 400; color: #555555; text-decoration: none;}
+    header div nav ul {display: flex; justify-content: center; align-items: center; gap: 25px;}
+    header div nav ul li a {display: block; font-size: 16px; font-weight: 400; color: #555555; text-decoration: none;}
+    header div nav ul li:hover a {color: #3355BB; font-weight: 500;}
+    footer {color: white; text-align: center; padding-block: 70px; background-color: #555555;}
+    footer div {margin-bottom: 20px;}
+    footer div a i {font-size: 40px; text-decoration: none; color: white; border: 1px solid #ffffff; border-radius: 99px; padding: 0px 8px;}
+}
