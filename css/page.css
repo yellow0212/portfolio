@@ -122,11 +122,11 @@
     main > div p::after {display: block; content: ""; width: 320px; height: 1px; background-color: white; margin-inline: auto; margin-top: 20px;}
     main > section {max-width: 1400px; margin-inline: auto;}
     main > section:nth-child(2) {margin-bottom: 210px;}
-    main > section:nth-child(2) > div:nth-child(1) {display: flex; justify-content: space-between; align-items: center; margin-bottom: 180px;}
+    main > section:nth-child(2) > div:nth-child(1) {display: flex;justify-content: space-between; align-items: center; margin-bottom: 180px;}
     main > section:nth-child(2) > div:nth-child(1) h2 { margin-right: 20px;}
     main > section:nth-child(2) > div:nth-child(1) p {position: relative; padding-left: 20px; font-size: 14px; line-height: 21px;}
     main > section:nth-child(2) > div:nth-child(1) p::before {content: ""; background-color: rgba(0, 0, 0, 0.1); width: 2px; height: 100%; position: absolute; left: 0; top: 0;}
-    main > section:nth-child(2) > div:nth-child(2) {display: flex; justify-content: space-between;}
+    main > section:nth-child(2) > div:nth-child(2) {display: flex; align-items: flex-start; justify-content: space-between;}
     main > section:nth-child(2) > div:nth-child(2) ul {width: 80%; display: grid; gap: 30px;  grid-template-columns: repeat(2,1fr); list-style: none;}
     main > section:nth-child(2) > div:nth-child(2) ul > li h3{display: inline-block; overflow: hidden; background-color: #e1e9ff; color: #3355BB; font-size: 20px; margin: 0; padding: 5px;}
     main > section:nth-child(2) > div:nth-child(2) ul > li > ol {margin-top: 10px;}
