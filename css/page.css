@@ -1,5 +1,119 @@
-@media screen and (max-width:767px){}
-@media screen and (min-width: 768px) and (max-width: 1279px){}
+@media screen and (max-width:767px){
+    main h2 {color: #3355BB; font-size: 40px; font-weight: 500; letter-spacing: -2px; text-decoration: none;}
+    main > div {background: url(../img/bg-bk.png) no-repeat center / cover; padding-block: 300px 270px; margin-bottom: 80px;} 
+    main > div strong {display: block; color: white; font-size: 40px; font-weight: 700; text-align: center; margin-bottom: 20px;}
+    main > div p {color: white; text-align: center; font-size: 12px;}
+    main > div p::after {display: block; content: ""; width: 320px; height: 1px; background-color: white; margin-inline: auto; margin-top: 20px;}
+    main > section {max-width: 760px; margin-inline: auto;}
+    main > section:nth-child(2) {margin-bottom: 210px;}
+    main > section:nth-child(2) > div:nth-child(1) {display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin-bottom: 80px;}
+    main > section:nth-child(2) > div:nth-child(1) h2 {margin-bottom: 20px;}
+    main > section:nth-child(2) > div:nth-child(1) p {position: relative; padding-left: 20px; font-size: 14px; line-height: 21px;}
+    main > section:nth-child(2) > div:nth-child(1) p::before {display: block; content: ""; width: 80%; height: 3px; background-color: rgba(0, 0, 0, 0.1); margin-inline: auto; margin-bottom: 20px;}
+    main > section:nth-child(2) > div:nth-child(2) {width: 95%; margin: 0 auto; display: flex; align-items: center; justify-content: center; flex-direction: column-reverse; gap: 30px; }
+    main > section:nth-child(2) > div:nth-child(2) ul {width: 100%; display: grid; gap: 30px;  grid-template-columns: repeat(1,1fr); list-style: none;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li h3{display: inline-block; overflow: hidden; background-color: #e1e9ff; color: #3355BB; font-size: 20px; margin: 0; padding: 5px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol {margin-top: 10px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li {line-height: 24px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li span {color: #555; font-size: 10px; padding-left: 10px} 
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li b {font-weight: 500; margin-right: 10px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li:last-child > ol {width: 100%;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li:last-child > ol > li{display: flex; align-items: center; justify-content: space-between;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li img {width: 20px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li label {margin-left: 10px; flex: 1; text-transform: uppercase;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li progress {height: 10px; border-radius: 10px; appearance: none; background: #ddd;overflow: hidden; position: relative;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li progress::-webkit-progress-bar {background: #ddd; border-radius: 10px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li progress::-webkit-progress-value {background: linear-gradient(to right, #aabdf5, #7894e5); border-radius: 10px;}
+    main > section:nth-child(2) > div:nth-child(2) img {width: 300px; border-radius: 10px;}
+    main > section:nth-child(3) {margin-bottom: 350px;}
+    main > section:nth-child(3) h2 {margin-bottom: 40px;}
+    main > section:nth-child(3) > .bx-wrapper {box-shadow: none; border: none; margin-bottom: auto; background-color: #f1f1f1; padding-block: 20px 75px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport {overflow: visible !important;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li {width: 100%; height: auto; position: relative;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > img {width: 60%; margin: 0 auto 40px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div {width: 95%; margin: 0 auto;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > img {display: block; width: 190px; aspect-ratio: 290 / 75; margin-bottom: 40px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; font-size: 20px; color: #555;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p {width: 80%; line-height: 34px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p span {display: inline-block; font-weight: 500; width: 12%;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -80px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a:hover {background-color: #222;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.demo {width: 50px; right: 0;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.download {right: 112px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="true"] {display: none;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="false"] {display: block;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {background: url('../img/btn_before_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next {background: url('../img/btn_next_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:hover {background: url('../img/btn_before_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next:hover {background: url('../img/btn_next_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-default-pager{position: absolute; bottom: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-pager-item a.bx-pager-link{width: 40px; height: 3px; background-color: #dadada; margin: 0 5px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-pager-item a.bx-pager-link.active{background-color: #555555;}
+    main > section:nth-child(4) {display: flex; justify-content: space-between; margin-bottom: 300px;}
+    main > section:nth-child(4) > h2 {color: #3355BB; font-size: 40px; font-weight: 500; letter-spacing: -2px; text-decoration: none;}
+    main > section:nth-child(4) > form {display: flex; flex-direction: column; width: 60%; justify-content: space-between; gap: 20px;}
+    main > section:nth-child(4) > form :is(input, textarea) { border: 1px solid #999; font-size: 14px; padding: 0.8em 0.5em;}
+    main > section:nth-child(4) > form input::placeholder,textarea::placeholder{font-family: 'Roboto';}
+    main > section:nth-child(4) > form input[type="submit"] {padding: 10px; background-color: #3355BB; color: #fff; cursor: pointer; border: 0 none; width: 160px; align-self: flex-end;}
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    main h2 {color: #3355BB; font-size: 40px; font-weight: 500; letter-spacing: -2px; text-decoration: none;}
+    main > div {background: url(../img/bg-bk.png) no-repeat center / cover; padding-block: 300px 270px; margin-bottom: 80px;} 
+    main > div strong {display: block; color: white; font-size: 100px; font-weight: 700; text-align: center; margin-bottom: 20px;}
+    main > div p {color: white; text-align: center;}
+    main > div p::after {display: block; content: ""; width: 320px; height: 1px; background-color: white; margin-inline: auto; margin-top: 20px;}
+    main > section {max-width: 760px; margin-inline: auto;}
+    main > section:nth-child(2) {margin-bottom: 210px;}
+    main > section:nth-child(2) > div:nth-child(1) {display: flex; justify-content: space-between; align-items: center; margin-bottom: 80px;}
+    main > section:nth-child(2) > div:nth-child(1) h2 { margin-right: 20px;}
+    main > section:nth-child(2) > div:nth-child(1) p {position: relative; padding-left: 20px; font-size: 14px; line-height: 21px;}
+    main > section:nth-child(2) > div:nth-child(1) p::before {content: ""; background-color: rgba(0, 0, 0, 0.1); width: 2px; height: 100%; position: absolute; left: 0; top: 0;}
+    main > section:nth-child(2) > div:nth-child(2) {display: flex; align-items: flex-start; justify-content: space-between; flex-direction: row-reverse; gap: 30px; }
+    main > section:nth-child(2) > div:nth-child(2) ul {width: 100%; display: grid; gap: 30px;  grid-template-columns: repeat(1,1fr); list-style: none;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li h3{display: inline-block; overflow: hidden; background-color: #e1e9ff; color: #3355BB; font-size: 20px; margin: 0; padding: 5px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol {margin-top: 10px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li {line-height: 24px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li span {color: #555; font-size: 10px; padding-left: 10px} 
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li b {font-weight: 500; margin-right: 10px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li:last-child > ol {width: 100%;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li:last-child > ol > li{display: flex; align-items: center; justify-content: space-between;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li img {width: 20px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li label {margin-left: 10px; flex: 1; text-transform: uppercase;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li progress {height: 10px; border-radius: 10px; appearance: none; background: #ddd;overflow: hidden; position: relative;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li progress::-webkit-progress-bar {background: #ddd; border-radius: 10px;}
+    main > section:nth-child(2) > div:nth-child(2) ul > li > ol li progress::-webkit-progress-value {background: linear-gradient(to right, #aabdf5, #7894e5); border-radius: 10px;}
+    main > section:nth-child(2) > div:nth-child(2) img {width: 300px; border-radius: 10px;}
+    main > section:nth-child(3) {margin-bottom: 350px;}
+    main > section:nth-child(3) h2 {margin-bottom: 40px;}
+    main > section:nth-child(3) > .bx-wrapper {box-shadow: none; border: none; margin-bottom: auto; background-color: #f1f1f1; padding-block: 20px 75px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport {overflow: visible !important;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li {width: 100%; height: auto; position: relative;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > img {width: 60%; margin: 0 auto 40px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div {width: 95%; margin: 0 auto;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > img {display: block; width: 190px; aspect-ratio: 290 / 75; margin-bottom: 40px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; font-size: 20px; color: #555;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p {width: 80%; line-height: 34px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p span {display: inline-block; font-weight: 500; width: 12%;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -20px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a:hover {background-color: #222;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.demo {width: 50px; right: 0;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.download {right: 112px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="true"] {display: none;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="false"] {display: block;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {background: url('../img/btn_before_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next {background: url('../img/btn_next_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:hover {background: url('../img/btn_before_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next:hover {background: url('../img/btn_next_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-default-pager{position: absolute; bottom: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-pager-item a.bx-pager-link{width: 40px; height: 3px; background-color: #dadada; margin: 0 5px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-pager-item a.bx-pager-link.active{background-color: #555555;}
+    main > section:nth-child(4) {display: flex; justify-content: space-between; margin-bottom: 300px;}
+    main > section:nth-child(4) > h2 {color: #3355BB; font-size: 40px; font-weight: 500; letter-spacing: -2px; text-decoration: none;}
+    main > section:nth-child(4) > form {display: flex; flex-direction: column; width: 60%; justify-content: space-between; gap: 20px;}
+    main > section:nth-child(4) > form :is(input, textarea) { border: 1px solid #999; font-size: 14px; padding: 0.8em 0.5em;}
+    main > section:nth-child(4) > form input::placeholder,textarea::placeholder{font-family: 'Roboto';}
+    main > section:nth-child(4) > form input[type="submit"] {padding: 10px; background-color: #3355BB; color: #fff; cursor: pointer; border: 0 none; width: 160px; align-self: flex-end;}
+}
 @media screen and (min-width: 1280px){
     main h2 {color: #3355BB; font-size: 40px; font-weight: 500; letter-spacing: -2px; text-decoration: none;}
     main > div {background: url(../img/bg-bk.png) no-repeat center / cover; padding-block: 300px 270px; margin-bottom: 100px;} 
@@ -29,20 +143,33 @@
     main > section:nth-child(2) > div:nth-child(2) img {width: 300px; border-radius: 10px;}
     main > section:nth-child(3) {margin-bottom: 350px;}
     main > section:nth-child(3) h2 {margin-bottom: 150px;}
-    main > section:nth-child(3) ul {background-color: #f1f1f1; padding-block: 50px 70px;}
-    main > section:nth-child(3) ul li {position: relative;}
-    main > section:nth-child(3) ul li > img {position: absolute; width: 50%; top: -150px; left: 10px;}
-    main > section:nth-child(3) ul li > div {width: 45%; margin-left: auto;}
-    main > section:nth-child(3) ul li > div > img {display: block; width: 50%; margin-bottom: 20px;}
-    main > section:nth-child(3) ul li > div > b {display: block; margin-bottom: 20px; font-size: 20px; color: #555;}
-    main > section:nth-child(3) ul li > div > p {width: 80%; line-height: 34px;}
-    main > section:nth-child(3) ul li > a {position: absolute; bottom: -70px; right: 0; color: #fff; text-decoration: none; background-color: #555; padding: 40px; text-transform: uppercase;}
+    main > section:nth-child(3) > .bx-wrapper {box-shadow: none; border: none; margin-bottom: auto; background-color: #f1f1f1; padding-block: 50px 120px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport {overflow: visible !important;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li {width: 100%; height: auto; position: relative;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > img {position: absolute; width: 60%; top: -160px; left: -100px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div {width: 45%; margin-left: auto;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > img {display: block; width: 290px; height: 75px; margin-bottom: 20px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; font-size: 20px; color: #555;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p {width: 80%; line-height: 34px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p span {display: inline-block; font-weight: 500; width: 12%;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -120px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a:hover {background-color: #222;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.demo {width: 50px; right: 0;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.download {right: 112px;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="true"] {display: none;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="false"] {display: block;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {background: url('../img/btn_before_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next {background: url('../img/btn_next_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:hover {background: url('../img/btn_before_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next:hover {background: url('../img/btn_next_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-default-pager{position: absolute; bottom: -70px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-pager-item a.bx-pager-link{width: 40px; height: 3px; background-color: #dadada; margin: 0 5px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-pager-item a.bx-pager-link.active{background-color: #555555;}
     main > section:nth-child(4) {display: flex; justify-content: space-between; margin-bottom: 300px;}
     main > section:nth-child(4) > h2 {color: #3355BB; font-size: 40px; font-weight: 500; letter-spacing: -2px; text-decoration: none;}
     main > section:nth-child(4) > form {display: flex; flex-direction: column; width: 60%; justify-content: space-between; gap: 20px;}
     main > section:nth-child(4) > form :is(input, textarea) { border: 1px solid #999; font-size: 14px; padding: 0.8em 0.5em;}
     main > section:nth-child(4) > form input::placeholder,textarea::placeholder{font-family: 'Roboto';}
     main > section:nth-child(4) > form input[type="submit"] {padding: 10px; background-color: #3355BB; color: #fff; cursor: pointer; border: 0 none; width: 160px; align-self: flex-end;}
-
 }
 
