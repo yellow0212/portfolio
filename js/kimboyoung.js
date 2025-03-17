@@ -1,6 +1,7 @@
 $(document).ready(function () {
     mainScroll();
     formSubmit();
+    slider(".projectSlider");
 });
 
 function mainScroll() {
@@ -8,7 +9,7 @@ function mainScroll() {
         event.preventDefault();
 
         var targetId = $(this).attr("href");
-        var targetOffset = $(targetId).offset().top - 150;
+        var targetOffset = $(targetId).offset().top - 130;
 
         $("html, body").animate({
             scrollTop: targetOffset
@@ -17,7 +18,7 @@ function mainScroll() {
 }
 
 function formSubmit() {
-    $("#contactForm").on("submit", function (event) {
+    $("#contactForm").on("submit", function (event) {s
         event.preventDefault();
 
         var formData = {
@@ -43,3 +44,16 @@ function formSubmit() {
     });
 }
 
+function slider(target){
+    $(target).bxSlider({
+        minSlides: 1,
+        maxSlides: 1,
+        slideWidth: 1920,
+        slideMargin: 20,
+        moveSlides: 1,
+        pager: true,
+        controls: true,
+        infiniteLoop: false,
+        touchEnabled: false
+    });
+}
