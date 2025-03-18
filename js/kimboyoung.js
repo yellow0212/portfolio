@@ -49,7 +49,6 @@ function slider(target){
         minSlides: 1,
         maxSlides: 1,
         slideWidth: 1920,
-        slideMargin: 20,
         moveSlides: 1,
         pager: true,
         controls: true,
