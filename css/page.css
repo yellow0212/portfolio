@@ -37,7 +37,7 @@
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; font-size: 16px; color: #555;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p {width: 100%; line-height: 34px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p span {display: inline-block; font-weight: 500; width: 12%;}
-    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -140px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -75px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a:hover {background-color: #222;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.demo {width: 50px; right: 0;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.download {right: 112px;}
@@ -45,7 +45,7 @@
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="false"] {display: block;}
     main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {background: url('../img/btn_before_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 15%; top: -30px;}
     main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next {background: url('../img/btn_next_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
-    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:hover {background: url('../img/btn_before_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:hover {background: url('../img/btn_before_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 15%; top: -30px;}
     main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next:hover {background: url('../img/btn_next_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
     main > section:nth-child(3) > .bx-wrapper .bx-default-pager{position: absolute; bottom: -30px;}
     main > section:nth-child(3) > .bx-wrapper .bx-pager-item a.bx-pager-link{width: 40px; height: 3px; background-color: #dadada; margin: 0 5px;}
@@ -96,15 +96,15 @@
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; font-size: 20px; color: #555;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p {width: 80%; line-height: 34px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p span {display: inline-block; font-weight: 500; width: 12%;}
-    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -20px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -75px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a:hover {background-color: #222;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.demo {width: 50px; right: 0;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.download {right: 112px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="true"] {display: none;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport .projectSlider li[aria-hidden="false"] {display: block;}
-    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {background: url('../img/btn_before_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {background: url('../img/btn_before_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 15%; top: -30px;}
     main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next {background: url('../img/btn_next_controls.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
-    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:hover {background: url('../img/btn_before_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 5%; top: -30px;}
+    main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:hover {background: url('../img/btn_before_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 15%; top: -30px;}
     main > section:nth-child(3) > .bx-wrapper .bx-controls .bx-controls-direction .bx-next:hover {background: url('../img/btn_next_controls_555.png') center / 26px 26px no-repeat; width: 26px; height: 26px; right: 0; top: -30px;}
     main > section:nth-child(3) > .bx-wrapper .bx-default-pager{position: absolute; bottom: -30px;}
     main > section:nth-child(3) > .bx-wrapper .bx-pager-item a.bx-pager-link{width: 40px; height: 3px; background-color: #dadada; margin: 0 5px;}
