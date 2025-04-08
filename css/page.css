@@ -34,7 +34,7 @@
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > img {width: 60%; margin: 0 auto 40px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div {width: 95%; margin: 0 auto;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > img {display: block; width: 190px; aspect-ratio: 290 / 75; margin-bottom: 40px;}
-    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; font-size: 16px; color: #555;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 30px; height: 20px; font-size: 16px; color: #555;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p {width: 100%; line-height: 34px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p span {display: inline-block; font-weight: 500; width: 12%;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -75px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
@@ -93,7 +93,7 @@
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > img {width: 60%; margin: 0 auto 40px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div {width: 95%; margin: 0 auto;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > img {display: block; width: 190px; aspect-ratio: 290 / 75; margin-bottom: 40px;}
-    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; font-size: 20px; color: #555;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; height: 40px; font-size: 20px; color: #555;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p {width: 80%; line-height: 34px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p span {display: inline-block; font-weight: 500; width: 12%;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -75px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
@@ -146,16 +146,16 @@
     main > section:nth-child(2) > div:nth-child(2) img {width: 300px; border-radius: 10px;}
     main > section:nth-child(3) {margin-bottom: 350px;}
     main > section:nth-child(3) h2 {margin-bottom: 150px;}
-    main > section:nth-child(3) > .bx-wrapper {box-shadow: none; border: none; margin-bottom: auto; background-color: #f1f1f1; padding-block: 50px 120px;}
+    main > section:nth-child(3) > .bx-wrapper {box-shadow: none; border: none; margin-bottom: auto; background-color: #f1f1f1; padding-block: 50px 140px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport {overflow: visible !important;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li {width: 100%; height: auto; position: relative;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > img {position: absolute; width: 60%; top: -160px; left: -100px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div {width: 45%; margin-left: auto;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > img {display: block; width: 290px; height: 75px; margin-bottom: 20px;}
-    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; margin-bottom: 20px; font-size: 20px; color: #555;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > b {display: block; height: 40px; margin-bottom: 20px; font-size: 20px; color: #555;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p {width: 80%; line-height: 34px;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > div > p span {display: inline-block; font-weight: 500; width: 12%;}
-    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -120px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
+    main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a {position: absolute; color: #fff; bottom: -140px; text-decoration: none; background-color: #555; padding: 25px 30px; text-transform: uppercase;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a:hover {background-color: #222;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.demo {width: 50px; right: 0;}
     main > section:nth-child(3) > .bx-wrapper >.bx-viewport > ul li > a.download {right: 112px;}
